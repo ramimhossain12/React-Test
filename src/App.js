@@ -1,22 +1,23 @@
-import React from "react";
+import React from 'react'
+ 
 import Card from './components/Card'
 import Card2 from './components/Card2'
+ 
+import STATE from './components/STATE'
 
-function App(params) {
-  return <div>
-    <h1 className ='heading'> Todo App</h1>,
+export default function App() {
+    return (
+        <div>
 
-     <Card />,
-     <Card2 />,
-     <Card/>,
+      <h1 className='heading'>Test Project</h1>
+
+       <Card />,
+       <Card2 />,
+       <STATE count ='0'/>
      
-      
-</div>
- 
-
- 
-
-    
+        </div>
+    )
 }
 
-export default App;
+
+ 

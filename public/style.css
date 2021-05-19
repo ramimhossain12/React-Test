@@ -47,3 +47,24 @@
 .des{
     margin-top: 4px;
 }
+
+.btn1{
+    width: 100px;
+    height: 22px;
+    margin-left: 1rem;
+    background-color: green;
+}
+.btn2 {
+    width: 100px;
+    height: 22px;
+    margin-left: 4rem;
+    text-align: center;
+    background-color: orange;
+}
+
+.ctext{
+    font-size: 3rem;
+    padding: 10px;
+
+    color: orangered;
+}

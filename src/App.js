@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Card from './components/Card'
+import Card2 from './components/Card2'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(params) {
+  return <div>
+    <h1 className ='heading'> Todo App</h1>,
+
+     <Card />,
+     <Card2 />,
+     <Card/>,
+     
+      
+</div>
+ 
+
+ 
+
+    
 }
 
 export default App;
